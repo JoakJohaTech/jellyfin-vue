@@ -9,8 +9,6 @@ on:
     paths-ignore:
       - '**/*.md'
   merge_group:
-  schedule:
-    - cron: 30 7 * * 6
   workflow_dispatch:
 
 jobs:
